@@ -1,7 +1,10 @@
 class ControlRemotoAvanzado extends ControlRemoto {
 
     public ControlRemotoAvanzado(Dispositivo dispositivo) {
+
+
         super(dispositivo);
+        System.out.println("estamos creando un control remoto avanzado");
     }
 
     public void mute() {
@@ -9,7 +12,8 @@ class ControlRemotoAvanzado extends ControlRemoto {
     }
 
     public void record() {
-        System.out.println("grabando programacion...");
+        System.out.println("grabando programa.");
     }
 
 }
+
