@@ -12,10 +12,10 @@ public class Main {
 
         Personaje guerreroConCasco = new Casco(new Guerrero());
 
-        System.out.println(guerreroConArmaduraYCasco.atacar());
-        System.out.println(guerreroConArmadura.atacar());
-        System.out.println(guerreroConCasco.atacar());
-        System.out.println(guerreroBasico.atacar());
+        System.out.println("Guerrero con armadura y casco causa daño " + guerreroConArmaduraYCasco.atacar());
+        System.out.println("Guerrero con armadura causa daño " +guerreroConArmadura.atacar());
+        System.out.println("Guerrero con casco causa daño " + guerreroConCasco.atacar());
+        System.out.println("Guerrero básico causa daño " +guerreroBasico.atacar());
 
 
 
