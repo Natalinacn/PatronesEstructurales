@@ -1,8 +1,8 @@
 package org.natalin;
 
-public class Casco extends Decorador{
+public class Espada extends Decorador{
 
-    public Casco(Personaje personaje){
+    public Espada(Personaje personaje){
 
         super(personaje);
     }
