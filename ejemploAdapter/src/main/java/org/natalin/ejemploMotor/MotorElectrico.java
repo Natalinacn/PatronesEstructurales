@@ -2,11 +2,6 @@ package org.natalin.ejemploMotor;
 
 public class MotorElectrico {
 
-    public MotorElectrico() {
-        System.out.println("Creando motor electrico...");
-
-    }
-
     public void conectar() {
         System.out.println("Conectando motor eléctrico.");
     }
